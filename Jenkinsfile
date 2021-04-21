@@ -31,14 +31,15 @@ pipline{
         //4. 打包
         stage('Packing') {
             steps {
-
                 echo "Packing..."
             }
         }
 
         //5. 部署
         stage('Deploying') {
+            steps {
                 echo "Deploying..."
+            }
         }
 
     }
